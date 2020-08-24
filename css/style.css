@@ -12,6 +12,8 @@
 ul {
   list-style: none;
   text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* цвет основного цвета #212121 */
@@ -86,6 +88,14 @@ body {
 .section-title {
   color: var(--primary-text-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 
 /* features */
 
@@ -99,6 +109,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0px;
 }
 .title-features {
   font-weight: 700;
@@ -106,6 +117,8 @@ body {
   line-height: 16px;
   letter-spacing: 1.14;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -114,14 +127,18 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 0px;
 }
 /* work peple */
 .title-name {
   color: var(--primary-text-color);
   font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .text-work {
   color: var(--title-text-color);
+  margin-top: 0px;
 }
 .title-name .text-work {
   font-size: 16px;
@@ -153,6 +170,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 
 .alfa {
@@ -161,7 +180,10 @@ body {
 }
 
 .hero {
+  margin-top: 0px;
+  margin-bottom: 0px;
   background-color: var(--hero-color);
+  text-align: center;
 }
 
 h1 {
@@ -170,6 +192,8 @@ h1 {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 30;
 }
 
 /* Команда */
