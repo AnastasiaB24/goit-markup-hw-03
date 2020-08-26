@@ -36,6 +36,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1170;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+/* header */
+
+.flexbox {
+  display: flex;
+  align-items: center;
 }
 
 /* logo */
@@ -61,16 +70,18 @@ body {
   margin-right: 40px;
 }
 .site-nav .link {
-  color: var(--primary-text-color);
   display: block;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  color: var(--primary-text-color);
+
   text-decoration: none;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
 
 .site-nav .link:hover,
@@ -88,6 +99,7 @@ body {
 
 .addres .link-addres {
   color: var(--title-text-color);
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -99,6 +111,16 @@ body {
 .addres .link-addres:focus {
   color: var(--accent-color);
 }
+/* auth nav */
+
+.auth-nav {
+  display: flex;
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+
 .normal {
   font-style: normal;
 }
