@@ -132,10 +132,11 @@ body {
 .section-title {
   color: var(--primary-text-color);
 }
+
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
+
 .section.no-padding {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -293,9 +294,7 @@ body {
 
 .hero {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 200px;
-  padding-bottom: 210px;
+  margin-bottom: 94px;
 
   background-color: var(--hero-color);
 
