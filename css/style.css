@@ -108,6 +108,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .addres .link-addres:hover,
@@ -210,6 +211,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0px;
+  margin-bottom: 50px;
 }
 .title-features {
   font-weight: 700;
@@ -297,6 +299,9 @@ body {
   margin-top: 0px;
   margin-bottom: 94px;
 
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--hero-color);
 
   text-align: center;
@@ -317,6 +322,8 @@ h1 {
 /* Команда */
 .section-comand {
   background-color: var(--comand-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* кнопки */
