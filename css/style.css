@@ -262,7 +262,7 @@ body {
 }
 .poster-name {
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 
   color: var(--title-text-color);
 
